@@ -1,3 +1,6 @@
+/*A list of constants is defined, 
+representing the cost of different types of items*/
+
 const SHOES_COST = 300;
 const TOYS_COST = 100;
 const SHIRTS_COST = 150;
@@ -18,6 +21,11 @@ const totalCost =
   SHIRTS_COST * shirtsQuantity +
   BATTERIES_COST * batteriesQuantity +
   PENS_COST * pensQuantity;
+
+// Set the value of customers and currencySymbol:
+let customers = 1;
+currencySymbol = null;
+
 
 
 let shippingCost = null;
@@ -56,7 +64,3 @@ if ((totalCost >= 1000 && customerLocation === 'RSA') || (totalCost >= 60 && cus
 if (shippingCost === 0 && customers > 1) {
     console.log('Free shipping only applies to single customer orders');
 }
-
-// Set the value of customers and currencySymbol:
-let customers = 1;
-currencySymbol = null;
