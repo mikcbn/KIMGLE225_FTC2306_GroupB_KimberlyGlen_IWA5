@@ -4,6 +4,7 @@ Your Code:
 
 You had a mix of uppercase and lowercase variable names (FREE_WARNING, BANNED_WARNIN, NONE_SELECTED).
 No clear naming conventions for constants.
+
 Improved Code:
 
 Used consistent uppercase naming for constants (SHIPPING_COST_RSA, SHIPPING_COST_NAM, etc.).
@@ -14,6 +15,7 @@ Your Code:
 
 The logic was spread out and hard to follow, with conditions and calculations mixed together.
 Nested and repeated if conditions made the code harder to understand.
+
 Improved Code:
 
 Grouped related code together in separate sections, making it easier to read and understand.
@@ -23,6 +25,7 @@ Modularization and Constants:
 Your Code:
 
 Direct values were used for shipping costs and currency symbols (400, 600, etc.).
+
 Improved Code:
 
 Created constants for shipping costs and currency symbols to improve maintainability and readability.
@@ -32,6 +35,7 @@ Initialization and Clarity:
 Your Code:
 
 Variables were assigned values and used in different parts of the code without clear initialization.
+
 Improved Code:
 
 Clear initialization of variables at the beginning of the code.
@@ -49,6 +53,7 @@ Code Structure:
 Your Code:
 
 Lack of indentation and inconsistent spacing made the code visually messy.
+
 Improved Code:
 
 Consistently indented code for better visual organization.
@@ -57,6 +62,7 @@ Consistency and Accuracy:
 Your Code:
 
 Various typos and incorrect syntax (=== instead of !==, incorrect variable names like location, etc.).
+
 Improved Code:
 
 Ensured consistent syntax and naming conventions.
